@@ -12,6 +12,11 @@
 		CA907FD91CFD5BCD005CE744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA907FD71CFD5BCD005CE744 /* Main.storyboard */; };
 		CA907FDB1CFD5BCD005CE744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA907FDA1CFD5BCD005CE744 /* Assets.xcassets */; };
 		CA907FDE1CFD5BCD005CE744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA907FDC1CFD5BCD005CE744 /* LaunchScreen.storyboard */; };
+		CA907FE61CFD5C6A005CE744 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA907FE51CFD5C6A005CE744 /* SecondViewController.swift */; };
+		CA907FE81CFD75A7005CE744 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA907FE71CFD75A7005CE744 /* FinalViewController.swift */; };
+		CA907FEA1CFD761C005CE744 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA907FE91CFD761C005CE744 /* BlueViewController.swift */; };
+		CA907FEC1CFD778C005CE744 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA907FEB1CFD778C005CE744 /* GreenViewController.swift */; };
+		CA907FEE1CFD786E005CE744 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA907FED1CFD786E005CE744 /* OrangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		CA907FDA1CFD5BCD005CE744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA907FDD1CFD5BCD005CE744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA907FDF1CFD5BCD005CE744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA907FE51CFD5C6A005CE744 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CA907FE71CFD75A7005CE744 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		CA907FE91CFD761C005CE744 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		CA907FEB1CFD778C005CE744 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		CA907FED1CFD786E005CE744 /* OrangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				CA907FD31CFD5BCD005CE744 /* AppDelegate.swift */,
 				CA907FD51CFD5BCD005CE744 /* ViewController.swift */,
 				CA907FD71CFD5BCD005CE744 /* Main.storyboard */,
+				CA907FED1CFD786E005CE744 /* OrangeViewController.swift */,
+				CA907FEB1CFD778C005CE744 /* GreenViewController.swift */,
+				CA907FE91CFD761C005CE744 /* BlueViewController.swift */,
+				CA907FE51CFD5C6A005CE744 /* SecondViewController.swift */,
+				CA907FE71CFD75A7005CE744 /* FinalViewController.swift */,
 				CA907FDA1CFD5BCD005CE744 /* Assets.xcassets */,
 				CA907FDC1CFD5BCD005CE744 /* LaunchScreen.storyboard */,
 				CA907FDF1CFD5BCD005CE744 /* Info.plist */,
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA907FEC1CFD778C005CE744 /* GreenViewController.swift in Sources */,
+				CA907FE61CFD5C6A005CE744 /* SecondViewController.swift in Sources */,
+				CA907FE81CFD75A7005CE744 /* FinalViewController.swift in Sources */,
 				CA907FD61CFD5BCD005CE744 /* ViewController.swift in Sources */,
+				CA907FEA1CFD761C005CE744 /* BlueViewController.swift in Sources */,
+				CA907FEE1CFD786E005CE744 /* OrangeViewController.swift in Sources */,
 				CA907FD41CFD5BCD005CE744 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
