@@ -72,6 +72,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.99979967950000004" green="0.99979967950000004" blue="0.99979967950000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="z7W-DF-3gK" kind="show" id="6X7-5E-5DI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.095378072102656364" green="0.20321988067181662" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -83,7 +86,7 @@
             </objects>
             <point key="canvasLocation" x="2103" y="725"/>
         </scene>
-        <!--Green View Controller-->
+        <!--Green-->
         <scene sceneID="lhO-9t-LiU">
             <objects>
                 <viewController storyboardIdentifier="greenview" id="z7W-DF-3gK" customClass="GreenViewController" customModule="swiftprjNav" customModuleProvider="target" sceneMemberID="viewController">
@@ -98,17 +101,21 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXK-hf-axE">
                                 <rect key="frame" x="137" y="234" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="ZSl-wF-LBH" kind="show" id="Yfd-5b-NzA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.12524277730237821" green="0.99979967950000004" blue="0.061901286330692494" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Green" id="bjh-sj-TL0"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xb1-Nn-ahH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2489" y="725"/>
         </scene>
-        <!--Orange View Controller-->
+        <!--Orange-->
         <scene sceneID="heA-GG-VUO">
             <objects>
                 <viewController storyboardIdentifier="orangeview" id="ZSl-wF-LBH" customClass="OrangeViewController" customModule="swiftprjNav" customModuleProvider="target" sceneMemberID="viewController">
@@ -127,6 +134,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.71646478729999996" blue="0.37394570579999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Orange" id="uLg-Ho-SzM"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPq-bQ-94i" userLabel="First Responder" sceneMemberID="firstResponder"/>
