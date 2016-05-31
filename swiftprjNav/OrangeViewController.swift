@@ -10,6 +10,11 @@ import UIKit
 
 class OrangeViewController: UIViewController {
 
+    @IBAction func buttonClicked(sender: AnyObject) {
+        //self.navigationController?.popToRootViewControllerAnimated(true)
+        
+        self.navigationController?.popToViewController((navigationController?.viewControllers[0])!, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

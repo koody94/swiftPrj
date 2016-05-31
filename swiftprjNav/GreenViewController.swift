@@ -10,6 +10,9 @@ import UIKit
 
 class GreenViewController: UIViewController {
 
+    @IBAction func buttonClicked(sender: AnyObject) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

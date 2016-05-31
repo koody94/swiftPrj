@@ -102,6 +102,7 @@
                                 <rect key="frame" x="137" y="234" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="buttonClicked:" destination="z7W-DF-3gK" eventType="touchUpInside" id="vQD-sE-bB0"/>
                                     <segue destination="ZSl-wF-LBH" kind="show" id="Yfd-5b-NzA"/>
                                 </connections>
                             </button>
@@ -130,6 +131,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBs-yw-mgb">
                                 <rect key="frame" x="137" y="233" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="ZSl-wF-LBH" eventType="touchUpInside" id="j3v-GR-6bh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.71646478729999996" blue="0.37394570579999997" alpha="1" colorSpace="calibratedRGB"/>
